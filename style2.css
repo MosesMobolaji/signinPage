@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url(birgith.jpg);
+	background-size:cover;
+	background-position: center;
+}
+
+@media only screen and (max-width: 400px){
+	body{
+		background-image:url(anna.jpg);
+	}
+}
+
+@media only screen and (max-width: 800px){
+	body{
+		background-image:url(diego.jpg);
+	}
+}
+
+h1{
+	font-size:100px;
+	font-family: "Gabriola";
+	margin: 10px;
+	padding: 0px;
+}
+
+.wrm{
+	text-align:center;
+}
+
+@media only screen and (max-width: 800px){
+	.wrm{
+		text-align:left;
+	}
+}
+
+.rmm{
+	font-size: 25px;
+}
+
+.bm{
+	border: none;
+	border-bottom: 1px solid blue;
+}
+
+/*.dif{
+	text-align:center;
+}*/
+
+.date1{
+	display:flex;
+	justify-content: center;
+	margin-right: 50px;
+}
+
+@media only screen and (max-width: 800px){
+	.date{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	.date{
+		display:flex;
+		justify-content: flex-end;
+		margin-right: 50px;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	.date1{
+		display:none;
+	}
+}
+
+.dif{
+	/*position:absolute;*/
+	/*left:350px;*/
+	padding:15px 5px;
+	text-align:center;
+	border: 2px;
+	border-radius:5px;
+	width:200px;
+	background-color:rgba(250,250,250,0.7);
+}
+
+hr{
+	width: 200px
+}
+
+.rm{
+	margin: 5px;
+}
+
+.frm.input{
+	padding: 5px;
+}
+.ftr{
+ 	display:flex;
+ 	justify-content: center;
+}
+
+ul{
+	display: flex;
+	list-style: none;
+	padding: 5px;
+}
+
+li{
+	padding: 5px;
+	color:gray;
+	position: 
+}
+li{
+	text-align: center;
+}
+.cod{
+	clear: both;
+}
